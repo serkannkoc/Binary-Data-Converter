@@ -16,7 +16,7 @@ public class Test {
         }
 
         while (true){
-            System.out.println("Enter the data size (1,2,3,4)!!");
+            System.out.println("Enter the size of the data type (1,2,3,4)!!");
             int dataSize = scannerForReadingData.nextInt();
             if(dataSize == 1 || dataSize == 2 || dataSize == 3 || dataSize == 4)
                 break;
